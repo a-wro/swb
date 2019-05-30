@@ -33,7 +33,7 @@ char char_sign_map(char opt) {
             return '*';
         case 'd':
             return '/';
-        case '-':
+        case 's':
             return '-';
         default:
             return '\0';
